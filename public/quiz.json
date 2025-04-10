@@ -1257,7 +1257,7 @@
               "flagship species",
               "all of the above"
             ],
-            "answer": "all of the above"
+            "answer": "keystone species"
           },
           {
             "id": "03",
@@ -1334,7 +1334,7 @@
               "flagship species",
               "all of the above"
             ],
-            "answer": "all of the above"
+            "answer": "umbrella species"
           },
           {
             "id": "10",
@@ -1345,7 +1345,7 @@
               "supporting service",
               "cultural service"
             ],
-            "answer": "regulating service"
+            "answer": "provisioning service"
           }
         ]
       }
