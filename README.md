@@ -23,7 +23,7 @@ An interactive quiz application built with **React.js** that allows users to tes
 |-----------------|
 | ![Screenshot 2025-04-10 173659](https://github.com/user-attachments/assets/066ba0eb-a289-4c8d-b71a-55754cdd5021)|
 
-> *(Add screenshots to a `screenshots/` folder and update the paths above)*
+
 
 ---
 
@@ -31,10 +31,19 @@ An interactive quiz application built with **React.js** that allows users to tes
 
 - **React.js**
 - **HTML5 + CSS3**
+- **Context API
+- **JSON for dynamic data
 - **JavaScript (ES6+)**
 - **Vercel** (for deployment)
 
 ---
+🛠 Next Steps:
+
+- **Add result analysis
+
+- **Timer functionality
+
+- **User login & progress tracking
 
 ---
 
