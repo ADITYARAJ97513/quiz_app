@@ -2,7 +2,7 @@
 An interactive, responsive quiz web application built with **React.js** that allows users to test their knowledge in a fun and dynamic way.. Users can select quiz sections or attempt a randomized set of 20 questions, with real-time scoring and dynamic content loading from a JSON file.
 
 [🌐 Live Demo]((http://quiz-app-git-main-aditya-rajs-projects-ec43eb62.vercel.app))
- <a href="[https://vercel.com](http://quiz-app-git-main-aditya-rajs-projects-ec43eb62.vercel.app)">Click here for live preview</a> 
+ <a href="http://quiz-app-git-main-aditya-rajs-projects-ec43eb62.vercel.app">Click here for live preview</a> 
 
 ---
 
