@@ -30,10 +30,20 @@ export const DataProvider = ({ children }) => {
   }, [quizs, questionIndex]);
 
   const selectSection = (sectionName) => {
-    const section = allSections.find(sec => sec.section === sectionName);
-    if (section) {
-      setQuizs(section.questions);
-      setSelectedSection(sectionName);
+    setSelectedSection(sectionName);
+
+    if (sectionName === "Random 20 Questions") {
+      const allQuestions = allSections.flatMap(sec => sec.questions);
+      const randomQuestions = allQuestions
+        .sort(() => 0.5 - Math.random())
+        .slice(0, 20);
+
+      setQuizs(randomQuestions);
+    } else {
+      const section = allSections.find(sec => sec.section === sectionName);
+      if (section) {
+        setQuizs(section.questions);
+      }
     }
   };
 
