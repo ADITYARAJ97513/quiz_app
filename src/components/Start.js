@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import DataContext from '../context/dataContext';
+import Donate from './Donate';
 
 const Start = () => {
   const { startQuiz, showStart, allSections, selectSection, selectedSection } = useContext(DataContext);
@@ -50,6 +51,7 @@ const Start = () => {
             >
               Start Quiz
             </button>
+            <Donate />
           </div>
         </div>
       </div>
