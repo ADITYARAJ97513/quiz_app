@@ -1,14 +1,14 @@
 # 🧠 React Quiz App
+An interactive, responsive quiz web application built with **React.js** that allows users to test their knowledge in a fun and dynamic way.. Users can select quiz sections or attempt a randomized set of 20 questions, with real-time scoring and dynamic content loading from a JSON file.
 
-An interactive quiz application built with **React.js** that allows users to test their knowledge in a fun and dynamic way.
-
-[🌐 Live Demo]([https://quiz-app-yourusername.vercel.app](http://quiz-app-git-main-aditya-rajs-projects-ec43eb62.vercel.app))
+[🌐 Live Demo]((http://quiz-app-git-main-aditya-rajs-projects-ec43eb62.vercel.app))
 
 ---
 
 ## ✨ Features
 
 - 📋 Multiple choice questions loaded from a JSON file
+- 📂 **Section-Based & Random Quiz Options** – Choose specific weeks or attempt a set of 20 random questions.
 - 💡 Instant feedback on answer selection
 - 📊 Score tracking
 - 🔄 Reset/Restart quiz
@@ -29,12 +29,12 @@ An interactive quiz application built with **React.js** that allows users to tes
 
 ## 🛠️ Tech Stack
 
-- **React.js**
-- **HTML5 + CSS3**
-- **Context API
-- **JSON for dynamic data
-- **JavaScript (ES6+)**
-- **Vercel** (for deployment)
+- ⚛️ **React.js** – Component-based UI and state management with Hooks & Context API
+- 📄 **JSON** – External data structure for quiz questions
+- 🎨 **HTML5 + CSS3** – Clean and modern styling
+- 🚀 **Vercel** – CI/CD and deployment with GitHub integration
+- 📜 **JavaScript (ES6+)** – Functional programming and event handling
+- 🚀 **Context API
 
 ---
 🛠 Next Steps:
@@ -48,7 +48,7 @@ An interactive quiz application built with **React.js** that allows users to tes
 ---
 
 <p align="center">
-  Made with ❤️ using React <br />
+  Made with ❤️ using React by Aditya Raj<br />
   Hosted on <a href="https://vercel.com">Vercel</a> | View on <a href="https://github.com/ADITYARAJ97513/quiz_app">GitHub</a>
 </p>
 
