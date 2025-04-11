@@ -12,6 +12,7 @@ const Start = () => {
           <div className="col-lg-8">
             <h1 className='fw-bold mb-4'>NPTEL(MOOC) QUIZ</h1>
             <h1 className='fw-bold mb-4'>by ADITYA RAJ</h1>
+            <h2>Conservation Economics</h2>
             <h3>each question carries 5 marks</h3>
 
             {/* Social Links */}
