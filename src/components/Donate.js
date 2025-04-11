@@ -26,7 +26,7 @@ const DonateModal = () => {
       {showModal && (
         <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h5 className="mb-2">Scan UPI QR to Donate</h5>
+            <h5 className="mb-2">Scan UPI QR (not necessary to pay , it's only for testing )</h5>
             <img
               src="/adi.jpg"
               alt="UPI QR Code"
