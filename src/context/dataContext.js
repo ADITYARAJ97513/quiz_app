@@ -31,14 +31,17 @@ export const DataProvider = ({ children }) => {
 
   const selectSection = (sectionName) => {
     setSelectedSection(sectionName);
-
+  
     if (sectionName === "Random 20 Questions") {
       const allQuestions = allSections.flatMap(sec => sec.questions);
       const randomQuestions = allQuestions
         .sort(() => 0.5 - Math.random())
         .slice(0, 20);
-
       setQuizs(randomQuestions);
+    } else if (sectionName === "All 120 Questions (Jumbled)") {
+      const allQuestions = allSections.flatMap(sec => sec.questions);
+      const jumbledAll = allQuestions.sort(() => 0.5 - Math.random());
+      setQuizs(jumbledAll);
     } else {
       const section = allSections.find(sec => sec.section === sectionName);
       if (section) {
@@ -46,6 +49,7 @@ export const DataProvider = ({ children }) => {
       }
     }
   };
+  
 
   const startQuiz = () => {
     if (!quizs.length) return;

@@ -13,8 +13,7 @@ const Start = () => {
             <h1 className='fw-bold mb-4'>NPTEL(MOOC) QUIZ</h1>
             <h1 className='fw-bold mb-4'>by ADITYA RAJ</h1>
             <h2>Conservation Economics</h2>
-            <h3>each question carries 5 marks</h3>
-
+            <h3>Each question carries 5 marks</h3>
             {/* Social Links */}
             <div style={{ marginBottom: '20px', display: 'flex', justifyContent: 'center', gap: '20px' }}>
               <a href="https://www.linkedin.com/in/adityarajbitmesra" target="_blank" rel="noopener noreferrer" title="LinkedIn">
@@ -38,6 +37,7 @@ const Start = () => {
               >
                 <option value="" disabled>Select Week</option>
                 <option value="Random 20 Questions">Random 20 Questions</option>
+                <option value="All 120 Questions (Jumbled)">All 120 Questions (Jumbled)</option>
                 {allSections.map((sec, index) => (
                   <option key={index} value={sec.section}>{sec.section}</option>
                 ))}
@@ -52,6 +52,7 @@ const Start = () => {
             >
               Start Quiz
             </button>
+           {/* Optional Donate Component */}
             <Donate />
           </div>
         </div>
