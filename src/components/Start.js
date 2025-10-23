@@ -5,7 +5,7 @@ import Donate from './Donate';
 const Start = () => {
   const { 
     startQuiz, showStart, allSections, selectSection, selectedSection,
-    showSubjectSelect, selectSubject, selectedSubject
+    showSubjectSelect, selectSubject, selectedSubject, loading
   } = useContext(DataContext);
 
   return (
@@ -35,14 +35,23 @@ const Start = () => {
                 <h2>Conservation {selectedSubject}</h2>
                 <h3>Each question carries 5 marks</h3>
                 <div className='mb-3'>
-                  <select className='form-select' onChange={(e) => selectSection(e.target.value)} value={selectedSection || ''}>
-                    <option value='' disabled>Select Week</option>
-                    <option value='Random 20 Questions'>Random 20 Questions</option>
-                    <option value='All Questions (Jumbled)'>All {allSections.length} Questions (Jumbled)</option>
-                    {allSections.map((sec, index) => (
-                      <option key={index} value={sec.section}>{sec.section}</option>
-                    ))}
-                  </select>
+                  {loading ? (
+                    <div className="text-center">
+                      <div className="spinner-border text-light" role="status">
+                        <span className="visually-hidden">Loading...</span>
+                      </div>
+                      <p className="mt-2">Loading quiz data...</p>
+                    </div>
+                  ) : (
+                    <select className='form-select' onChange={(e) => selectSection(e.target.value)} value={selectedSection || ''}>
+                      <option value='' disabled>Select Week</option>
+                      <option value='Random 20 Questions'>Random 20 Questions</option>
+                      <option value='All 120 Questions (Jumbled)'>All 120 Questions (Jumbled)</option>
+                      {allSections.map((sec, index) => (
+                        <option key={index} value={sec.section}>{sec.section}</option>
+                      ))}
+                    </select>
+                  )}
                 </div>
                 <div className='d-grid gap-3 mx-auto mb-4'>
                   <button className='btn px-4 py-2 bg-light text-dark fw-bold' onClick={startQuiz} disabled={!selectedSection}>

@@ -16,16 +16,29 @@ export const DataProvider = ({ children }) => {
   const [showQuiz, setShowQuiz] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [showSubjectSelect, setShowSubjectSelect] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     if (!selectedSubject) {
       setShowSubjectSelect(true);
     } else {
+      setLoading(true);
       const filename = selectedSubject === 'Economics' ? 'quiz.json' : 'conservation-geography.json';
       fetch(filename)
-        .then(res => res.json())
+        .then(res => {
+          if (!res.ok) {
+            throw new Error('Failed to fetch quiz data');
+          }
+          return res.json();
+        })
         .then(data => {
           setAllSections(data);
+          setLoading(false);
+        })
+        .catch(error => {
+          console.error('Error loading quiz data:', error);
+          setAllSections([]);
+          setLoading(false);
         });
     }
   }, [selectedSubject]);
@@ -105,8 +118,16 @@ export const DataProvider = ({ children }) => {
 
   const selectSubject = (subject) => {
     setSelectedSubject(subject);
-    setShowSubjectSelect(false);
-    setShowStart(true);
+    if (subject) {
+      setShowSubjectSelect(false);
+      setShowStart(true);
+    } else {
+      // Reset to subject selection when subject is null
+      setShowSubjectSelect(true);
+      setShowStart(false);
+      setShowQuiz(false);
+      setShowResult(false);
+    }
   };
 
   return (
@@ -117,7 +138,7 @@ export const DataProvider = ({ children }) => {
       showTheResult, showResult, marks, startOver,
       selectedSubject, selectSubject, showSubjectSelect, setShowSubjectSelect,
       setQuizs, setMarks, setQuestionIndex, setSelectedAnswer, setCorrectAnswer,
-      setShowResult, setShowStart, setShowQuiz
+      setShowResult, setShowStart, setShowQuiz, loading, setSelectedSubject
     }}>
       {children}
     </DataContext.Provider>

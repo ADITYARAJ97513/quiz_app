@@ -17,7 +17,9 @@ const Result = () => {
         setQuestionIndex,
         selectSection,
         setSelectedAnswer,
-        setCorrectAnswer
+        setCorrectAnswer,
+        setSelectedSubject,
+        selectSubject
     } = useContext(DataContext);
 
     const backToSubjectSelection = () => {
@@ -27,13 +29,10 @@ const Result = () => {
         setQuestionIndex(0);
         setSelectedAnswer('');
         setCorrectAnswer('');
+        
+        // Use the same pattern as Start component
+        selectSubject(null);
         selectSection('');
-
-        // Set view states to return to subject selection
-        setShowQuiz(false);
-        setShowResult(false);
-        setShowStart(false);
-        setShowSubjectSelect(true);
     };
     
     return (

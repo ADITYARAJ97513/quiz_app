@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const DonateModal = () => {
+const Donate = () => {
   const [showModal, setShowModal] = useState(false);
   const [showToast, setShowToast] = useState(false);
 
@@ -62,6 +62,6 @@ const DonateModal = () => {
   );
 };
 
-export default DonateModal;
+export default Donate;
 
 
