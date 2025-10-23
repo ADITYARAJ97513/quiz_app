@@ -3,6 +3,7 @@ import { createContext, useState, useEffect } from "react";
 const DataContext = createContext({});
 
 export const DataProvider = ({ children }) => {
+  const [selectedSubject, setSelectedSubject] = useState(null);
   const [allSections, setAllSections] = useState([]);
   const [selectedSection, setSelectedSection] = useState(null);
   const [quizs, setQuizs] = useState([]);
@@ -14,14 +15,20 @@ export const DataProvider = ({ children }) => {
   const [showStart, setShowStart] = useState(true);
   const [showQuiz, setShowQuiz] = useState(false);
   const [showResult, setShowResult] = useState(false);
+  const [showSubjectSelect, setShowSubjectSelect] = useState(true);
 
   useEffect(() => {
-    fetch('quiz.json')
-      .then(res => res.json())
-      .then(data => {
-        setAllSections(data);
-      });
-  }, []);
+    if (!selectedSubject) {
+      setShowSubjectSelect(true);
+    } else {
+      const filename = selectedSubject === 'Economics' ? 'quiz.json' : 'conservation-geography.json';
+      fetch(filename)
+        .then(res => res.json())
+        .then(data => {
+          setAllSections(data);
+        });
+    }
+  }, [selectedSubject]);
 
   useEffect(() => {
     if (quizs.length > questionIndex) {
@@ -96,12 +103,19 @@ export const DataProvider = ({ children }) => {
     document.querySelector('button.bg-success')?.classList.remove('bg-success');
   };
 
+  const selectSubject = (subject) => {
+    setSelectedSubject(subject);
+    setShowSubjectSelect(false);
+    setShowStart(true);
+  };
+
   return (
     <DataContext.Provider value={{
       allSections, selectedSection, selectSection,
       startQuiz, showStart, showQuiz, question, quizs, checkAnswer,
       correctAnswer, selectedAnswer, questionIndex, nextQuestion,
-      showTheResult, showResult, marks, startOver
+      showTheResult, showResult, marks, startOver,
+      selectedSubject, selectSubject, showSubjectSelect, setShowSubjectSelect
     }}>
       {children}
     </DataContext.Provider>

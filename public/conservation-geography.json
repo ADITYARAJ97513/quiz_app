@@ -1,0 +1,42 @@
+[
+    {
+        "section": "Week 1",
+        "questions": [
+            {
+                "id": "01",
+                "question": "What is the primary focus of Conservation Geography?",
+                "options": ["Urban planning", "Spatial patterns of conservation", "Economic development", "Population growth"],
+                "answer": "Spatial patterns of conservation"
+            },
+            {
+                "id": "02",
+                "question": "Which of the following is a key concept in biogeography?",
+                "options": ["Market economics", "Species distribution", "Fiscal policy", "Industrial development"],
+                "answer": "Species distribution"
+            },
+            {
+                "id": "03",
+                "question": "What is a biodiversity hotspot?",
+                "options": ["A tourist destination", "An area with high species richness and habitat loss", "A thermal spring", "An economic zone"],
+                "answer": "An area with high species richness and habitat loss"
+            }
+        ]
+    },
+    {
+        "section": "Week 2",
+        "questions": [
+            {
+                "id": "04",
+                "question": "Which tool is commonly used in Conservation Geography for spatial analysis?",
+                "options": ["GIS (Geographic Information System)", "Calculator", "Spreadsheet", "Social media"],
+                "answer": "GIS (Geographic Information System)"
+            },
+            {
+                "id": "05",
+                "question": "What is habitat fragmentation?",
+                "options": ["Building new habitats", "Division of large habitats into smaller patches", "Animal migration", "Forest growth"],
+                "answer": "Division of large habitats into smaller patches"
+            }
+        ]
+    }
+]
