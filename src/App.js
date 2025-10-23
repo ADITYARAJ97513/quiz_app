@@ -7,9 +7,9 @@ import { DataProvider } from './context/dataContext';
 function App() {
   return (
     <DataProvider>
-      <Start/>
-      <Quiz/>
-      <Result/>
+      <Start />
+      <Quiz />
+      <Result />
     </DataProvider>
   );
 }

@@ -118,13 +118,22 @@ export const DataProvider = ({ children }) => {
 
   const selectSubject = (subject) => {
     setSelectedSubject(subject);
+    setSelectedSection(null);
+    setQuizs([]);
+    setMarks(0);
+    setQuestionIndex(0);
+    setCorrectAnswer('');
+    setSelectedAnswer('');
+    
     if (subject) {
       setShowSubjectSelect(false);
       setShowStart(true);
+      setShowQuiz(false);
+      setShowResult(false);
     } else {
       // Reset to subject selection when subject is null
       setShowSubjectSelect(true);
-      setShowStart(false);
+      setShowStart(true);
       setShowQuiz(false);
       setShowResult(false);
     }

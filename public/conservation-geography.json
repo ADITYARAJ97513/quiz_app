@@ -30,7 +30,7 @@
         "options": [
           "conservation",
           "preservation",
-          "environmentalism",
+          "environmentalism.",
           "none of the above"
         ],
         "answer": "conservation"
@@ -59,7 +59,7 @@
       },
       {
         "id": "06",
-        "question": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor\" .This is the statement for",
+        "question": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor\".This is the statement for",
         "options": [
           "Liebig's law of the minimum",
           "Liebig's law of the maximum",
@@ -226,6 +226,1156 @@
           "gravity anomaly"
         ],
         "answer": "volcanic eruption"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 3",
+    "questions": [
+      {
+        "id": "21",
+        "question": "\"the points where three or more cirques meet\" is the definition of",
+        "options": [
+          "cirque",
+          "arete",
+          "horn",
+          "hanging valley"
+        ],
+        "answer": "horn"
+      },
+      {
+        "id": "22",
+        "question": "Which of these is an example of endogenic process?",
+        "options": [
+          "weathering",
+          "mass movement",
+          "erosion",
+          "folding"
+        ],
+        "answer": "folding"
+      },
+      {
+        "id": "23",
+        "question": "Sandstone is an example of",
+        "options": [
+          "siliciclastic rock",
+          "carbonate rock",
+          "evaporite rock",
+          "phosphatic rock"
+        ],
+        "answer": "siliciclastic rock"
+      },
+      {
+        "id": "24",
+        "question": "\"smooth oval-shaped ridge-like features comprised of glacial till, gravel and sand arranged parallel to the direction of ice movement\" is the definition of",
+        "options": [
+          "glacial till",
+          "outwash deposit",
+          "esker",
+          "drumlin"
+        ],
+        "answer": "drumlin"
+      },
+      {
+        "id": "25",
+        "question": "Which of these is an example of exogenic process?",
+        "options": [
+          "volcanism",
+          "earthquake",
+          "plate tectonics",
+          "deposition"
+        ],
+        "answer": "deposition"
+      },
+      {
+        "id": "26",
+        "question": "\"white or colourless hard mineral virtually insoluble in water\" is a description of",
+        "options": [
+          "amphiboles",
+          "quartz",
+          "feldspar",
+          "pyroxene"
+        ],
+        "answer": "quartz"
+      },
+      {
+        "id": "27",
+        "question": "Dolomite is an example of",
+        "options": [
+          "siliciclastic rock",
+          "carbonate rock",
+          "evaporite rock",
+          "phosphatic rock"
+        ],
+        "answer": "carbonate rock"
+      },
+      {
+        "id": "28",
+        "question": "\"green or black coloured inosilicate minerals forming prism or needle-like crystals\" is a description of",
+        "options": [
+          "amphiboles",
+          "feldspar",
+          "mica",
+          "pyroxene"
+        ],
+        "answer": "amphiboles"
+      },
+      {
+        "id": "29",
+        "question": "\"deep, long and wide troughs or basins with very steep concave to vertically dropping high walls as its head and sides\" is the definition of",
+        "options": [
+          "cirque",
+          "arete",
+          "horn",
+          "hanging valley"
+        ],
+        "answer": "cirque"
+      },
+      {
+        "id": "30",
+        "question": "\"magnesium iron silicate; a primary component of the Earth's upper mantle\" is a description of",
+        "options": [
+          "amphiboles",
+          "feldspar",
+          "quartz",
+          "olivine"
+        ],
+        "answer": "olivine"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 4",
+    "questions": [
+      {
+        "id": "31",
+        "question": "Which of these air masses is generally cool and moist?",
+        "options": [
+          "cP",
+          "cT",
+          "mP",
+          "mT"
+        ],
+        "answer": "mP"
+      },
+      {
+        "id": "32",
+        "question": "Which of these air masses is generally cold and dry?",
+        "options": [
+          "cP",
+          "cT",
+          "mP",
+          "mT"
+        ],
+        "answer": "cP"
+      },
+      {
+        "id": "33",
+        "question": "The ISS orbits in which layer?",
+        "options": [
+          "Troposphere",
+          "Stratosphere",
+          "Mesosphere",
+          "Thermosphere"
+        ],
+        "answer": "Thermosphere"
+      },
+      {
+        "id": "34",
+        "question": "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
+        "options": [
+          "adaptation",
+          "mitigation",
+          "deceleration",
+          "maladaptation"
+        ],
+        "answer": "mitigation"
+      },
+      {
+        "id": "35",
+        "question": "Surplus seed and sperm banking is an adaptation option to facilitate",
+        "options": [
+          "resistance to climate changes",
+          "resilience to climate changes",
+          "response to climate changes",
+          "none of these"
+        ],
+        "answer": "response to climate changes"
+      },
+      {
+        "id": "36",
+        "question": "The classical period for taking averages for climate is",
+        "options": [
+          "10 years",
+          "20 years",
+          "30 years",
+          "40 years"
+        ],
+        "answer": "30 years"
+      },
+      {
+        "id": "37",
+        "question": "Noctilucent clouds are present in which layer?",
+        "options": [
+          "Troposphere",
+          "Stratosphere",
+          "Mesosphere",
+          "Thermosphere"
+        ],
+        "answer": "Mesosphere"
+      },
+      {
+        "id": "38",
+        "question": "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+        "options": [
+          "adaptation",
+          "mitigation",
+          "deceleration",
+          "maladaptation"
+        ],
+        "answer": "adaptation"
+      },
+      {
+        "id": "39",
+        "question": "Which of these is home to the ozone layer?",
+        "options": [
+          "Troposphere",
+          "Stratosphere",
+          "Mesosphere",
+          "Thermosphere"
+        ],
+        "answer": "Stratosphere"
+      },
+      {
+        "id": "40",
+        "question": "Most of the weather phenomena occur in",
+        "options": [
+          "Troposphere",
+          "Stratosphere",
+          "Mesosphere",
+          "Thermosphere"
+        ],
+        "answer": "Troposphere"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 5",
+    "questions": [
+      {
+        "id": "41",
+        "question": "Equal density curves are called",
+        "options": [
+          "isopycnal curves",
+          "isohaline curves",
+          "isotherm curves",
+          "isobuoyant curves"
+        ],
+        "answer": "isopycnal curves"
+      },
+      {
+        "id": "42",
+        "question": "Which of these is a minor feature of the ocean floor?",
+        "options": [
+          "continental shelf",
+          "continental slope",
+          "guyot",
+          "abyssal plain"
+        ],
+        "answer": "guyot"
+      },
+      {
+        "id": "43",
+        "question": "\"mountains with pointed summits rising from the sea floor, but not reaching the surface of the ocean\" is a description of",
+        "options": [
+          "oceanic deep / trench",
+          "mid-oceanic ridge",
+          "seamount",
+          "atoll"
+        ],
+        "answer": "seamount"
+      },
+      {
+        "id": "44",
+        "question": "Which of these is the largest habitat on the Earth?",
+        "options": [
+          "continental shelf",
+          "continental slope",
+          "guyot",
+          "abyssal plain"
+        ],
+        "answer": "abyssal plain"
+      },
+      {
+        "id": "45",
+        "question": "Which of these are the largest mountain ranges on Earth?",
+        "options": [
+          "oceanic deep / trench",
+          "mid-oceanic ridge",
+          "seamount",
+          "atoll"
+        ],
+        "answer": "mid-oceanic ridge"
+      },
+      {
+        "id": "46",
+        "question": "\"deep valleys, often cutting across continental shelves and slopes\" is a description of",
+        "options": [
+          "oceanic deep / trench",
+          "mid-oceanic ridge",
+          "guyot",
+          "submarine canyon"
+        ],
+        "answer": "submarine canyon"
+      },
+      {
+        "id": "47",
+        "question": "Continental slope has a gradient of",
+        "options": [
+          "0-1 degree",
+          "1-2 degree",
+          "2-5 degree",
+          "5-10 degree"
+        ],
+        "answer": "2-5 degree"
+      },
+      {
+        "id": "48",
+        "question": "Which of these is not a prominent tidal pattern?",
+        "options": [
+          "diurnal",
+          "mixed diurnal",
+          "semidiurnal",
+          "mixed semidiurnal"
+        ],
+        "answer": "mixed diurnal"
+      },
+      {
+        "id": "49",
+        "question": "\"relatively steep-sided, narrow, deep basins\" is a description of",
+        "options": [
+          "oceanic deep / trench",
+          "mid-oceanic ridge",
+          "seamount",
+          "atoll"
+        ],
+        "answer": "oceanic deep / trench"
+      },
+      {
+        "id": "50",
+        "question": "In the sea, a layer where the temperature decreases rapidly from the mixed upper layer to the cold deeper layer is called",
+        "options": [
+          "isopycnal",
+          "thermophil",
+          "thermohaline",
+          "thermocline"
+        ],
+        "answer": "thermocline"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 6",
+    "questions": [
+      {
+        "id": "51",
+        "question": "In Koeppen classification, which is hot summer temperature?",
+        "options": [
+          "h",
+          "k",
+          "a",
+          "b"
+        ],
+        "answer": "a"
+      },
+      {
+        "id": "52",
+        "question": "In Koeppen classification, which is desert precipitation?",
+        "options": [
+          "W",
+          "S",
+          "f",
+          "s"
+        ],
+        "answer": "W"
+      },
+      {
+        "id": "53",
+        "question": "India's location is",
+        "options": [
+          "Equatorial in South, Tropical in North",
+          "Tropical in South, Equatorial in North",
+          "Tropical in South, Sub-tropical in North",
+          "Sub-tropical in South, Tropical in North"
+        ],
+        "answer": "Tropical in South, Sub-tropical in North"
+      },
+      {
+        "id": "54",
+        "question": "In Koeppen classification, which is cold arid temperature?",
+        "options": [
+          "h",
+          "k",
+          "a",
+          "b"
+        ],
+        "answer": "k"
+      },
+      {
+        "id": "55",
+        "question": "In Koeppen classification, which is winter dry precipitation?",
+        "options": [
+          "w",
+          "S",
+          "f",
+          "s"
+        ],
+        "answer": "w"
+      },
+      {
+        "id": "56",
+        "question": "In Koeppen classification, which is cool summer temperature?",
+        "options": [
+          "c",
+          "d",
+          "F",
+          "T"
+        ],
+        "answer": "c"
+      },
+      {
+        "id": "57",
+        "question": "Which of these is the correct sequence of seasons in India?",
+        "options": [
+          "Hot weather season -> Retreating monsoon season -> South-West monsoon season -> Cold weather season",
+          "Hot weather season -> Retreating monsoon season -> South-West monsoon season -> Cold weather season",
+          "Hot weather season -> Cold weather season -> South-West monsoon season -> Retreating monsoon season",
+          "Hot weather season -> South-West monsoon season -> Cold weather season -> Retreating monsoon season"
+        ],
+        "answer": "Hot weather season -> South-West monsoon season -> Cold weather season -> Retreating monsoon season"
+      },
+      {
+        "id": "58",
+        "question": "In Koeppen classification, which is monsoonal precipitation?",
+        "options": [
+          "W",
+          "S",
+          "m",
+          "s"
+        ],
+        "answer": "m"
+      },
+      {
+        "id": "59",
+        "question": "Physiography is the outcome of",
+        "options": [
+          "structure",
+          "process",
+          "stage of development",
+          "all of these"
+        ],
+        "answer": "all of these"
+      },
+      {
+        "id": "60",
+        "question": "In Koeppen classification, which is equatorial climate?",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 7",
+    "questions": [
+      {
+        "id": "61",
+        "question": "Soil formation is dependent upon",
+        "options": [
+          "vegetation",
+          "time",
+          "climate",
+          "all of the above"
+        ],
+        "answer": "all of the above"
+      },
+      {
+        "id": "62",
+        "question": "Which of these is not a characteristic of pioneer species",
+        "options": [
+          "ability to grow on bare rocks",
+          "ability to tolerate extreme temperatures",
+          "large size",
+          "short life span"
+        ],
+        "answer": "large size"
+      },
+      {
+        "id": "63",
+        "question": "\"groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\" is a definition of",
+        "options": [
+          "cells",
+          "species",
+          "ecosystems",
+          "biomes"
+        ],
+        "answer": "species"
+      },
+      {
+        "id": "64",
+        "question": "Mechanical action of ocean waves is an example of",
+        "options": [
+          "chemical weathering",
+          "physical weathering",
+          "biological weathering",
+          "none of the above"
+        ],
+        "answer": "physical weathering"
+      },
+      {
+        "id": "65",
+        "question": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
+        "options": [
+          "climatic climax",
+          "edaphic climax",
+          "disclimax",
+          "catastrophic climax"
+        ],
+        "answer": "disclimax"
+      },
+      {
+        "id": "66",
+        "question": "Carbonation is an example of",
+        "options": [
+          "chemical weathering",
+          "physical weathering",
+          "biological weathering",
+          "none of the above"
+        ],
+        "answer": "chemical weathering"
+      },
+      {
+        "id": "67",
+        "question": "In soil profile, C refers to",
+        "options": [
+          "organic surface layer",
+          "topsoil layer",
+          "subsoil layer",
+          "substratum layer"
+        ],
+        "answer": "substratum layer"
+      },
+      {
+        "id": "68",
+        "question": "A climax caused by wildfires is an example of",
+        "options": [
+          "climatic climax",
+          "edaphic climax",
+          "disclimax",
+          "catastrophic climax"
+        ],
+        "answer": "catastrophic climax"
+      },
+      {
+        "id": "69",
+        "question": "Regur is a term for",
+        "options": [
+          "black cotton soil",
+          "alluvial soil",
+          "saline soil",
+          "red and yellow soil"
+        ],
+        "answer": "black cotton soil"
+      },
+      {
+        "id": "70",
+        "question": "\"the diversity that exists among different geographies\" is",
+        "options": [
+          "alpha (a) biodiversity",
+          "beta (B) biodiversity",
+          "gamma (y) biodiversity",
+          "delta (d) biodiversity"
+        ],
+        "answer": "gamma (y) biodiversity"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 8",
+    "questions": [
+      {
+        "id": "71",
+        "question": "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
+        "options": [
+          "least concern species",
+          "keystone species",
+          "flagship species",
+          "extinct species"
+        ],
+        "answer": "keystone species"
+      },
+      {
+        "id": "72",
+        "question": "The \"subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce\" is the definition of",
+        "options": [
+          "habitat",
+          "ecosystem",
+          "biome",
+          "biosphere"
+        ],
+        "answer": "habitat"
+      },
+      {
+        "id": "73",
+        "question": "Which of these correctly represents the process of habitat fragmentation and loss?",
+        "options": [
+          "Original forest -> Dissection -> Perforation -> Fragmentation -> Attrition",
+          "Original forest -> Dissection -> Attrition -> Fragmentation -> Perforation",
+          "Original forest -> Dissection -> Perforation -> Attrition -> Fragmentation",
+          "Original forest -> Dissection -> Fragmentation -> Perforation -> Attrition"
+        ],
+        "answer": "Original forest -> Dissection -> Perforation -> Fragmentation -> Attrition"
+      },
+      {
+        "id": "74",
+        "question": "Soil formation is an example of",
+        "options": [
+          "provisioning service",
+          "regulating service",
+          "supporting service",
+          "cultural service"
+        ],
+        "answer": "supporting service"
+      },
+      {
+        "id": "75",
+        "question": "Biological control of pest populations is an example of",
+        "options": [
+          "provisioning service",
+          "regulating service",
+          "supporting service",
+          "cultural service"
+        ],
+        "answer": "regulating service"
+      },
+      {
+        "id": "76",
+        "question": "The acronym HIPPO does not include",
+        "options": [
+          "habitat loss",
+          "invasive species",
+          "pollination",
+          "pollution"
+        ],
+        "answer": "pollination"
+      },
+      {
+        "id": "77",
+        "question": "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+        "options": [
+          "umbrella species",
+          "keystone species",
+          "flagship species",
+          "all of the above"
+        ],
+        "answer": "all of the above"
+      },
+      {
+        "id": "78",
+        "question": "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+        "options": [
+          "umbrella species",
+          "keystone species",
+          "flagship species",
+          "extinct species"
+        ],
+        "answer": "flagship species"
+      },
+      {
+        "id": "79",
+        "question": "Captive breeding is an example of",
+        "options": [
+          "in-situ conservation",
+          "ex-situ conservation",
+          "in-situ preservation",
+          "ex-situ preservation"
+        ],
+        "answer": "ex-situ conservation"
+      },
+      {
+        "id": "80",
+        "question": "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+        "options": [
+          "very high",
+          "medium",
+          "very low",
+          "non-existent"
+        ],
+        "answer": "medium"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 9",
+    "questions": [
+      {
+        "id": "81",
+        "question": "According to Malthusian model,",
+        "options": [
+          "Population grows in geometric progression, food supply increases in arithmetic progression",
+          "Population grows in geometric progression, food supply increases in geometric progression",
+          "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+          "Population grows in arithmetic progression, food supply increases in geometric progression"
+        ],
+        "answer": "Population grows in geometric progression, food supply increases in arithmetic progression"
+      },
+      {
+        "id": "82",
+        "question": "Which of these is commonly observed during humanising of nature?",
+        "options": [
+          "environmental determinism",
+          "possibilism",
+          "neodeterminism",
+          "stop and go determinism"
+        ],
+        "answer": "possibilism"
+      },
+      {
+        "id": "83",
+        "question": "Which of these is a pillar of sustainability",
+        "options": [
+          "social sustainability",
+          "industrial sustainability",
+          "agricultural sustainability",
+          "trans-boundary sustainability"
+        ],
+        "answer": "social sustainability"
+      },
+      {
+        "id": "84",
+        "question": "Which of these is commonly observed in primitive societies?",
+        "options": [
+          "environmental determinism",
+          "possibilism",
+          "neodeterminism",
+          "stop and go determinism"
+        ],
+        "answer": "environmental determinism"
+      },
+      {
+        "id": "85",
+        "question": "The demographic transition sees a society move from",
+        "options": [
+          "high birth rate, low death rate to low birth rate, high death rate",
+          "low birth rate, high death rate to low birth rate, low death rate",
+          "high birth rate, high death rate to low birth rate, low death rate",
+          "high birth rate, high death rate to low birth rate, high death rate"
+        ],
+        "answer": "high birth rate, high death rate to low birth rate, low death rate"
+      },
+      {
+        "id": "86",
+        "question": "The logistic growth equation curve is",
+        "options": [
+          "I-shaped",
+          "J-shaped",
+          "S-shaped",
+          "U-shaped"
+        ],
+        "answer": "S-shaped"
+      },
+      {
+        "id": "87",
+        "question": "Which of these is a preventive check according to Malthus?",
+        "options": [
+          "foresight",
+          "vice",
+          "misery",
+          "flood"
+        ],
+        "answer": "foresight"
+      },
+      {
+        "id": "88",
+        "question": "Which of these is not a pillar of sustainability?",
+        "options": [
+          "environmental sustainability",
+          "economic sustainability",
+          "trans-boundary sustainability",
+          "social sustainability"
+        ],
+        "answer": "trans-boundary sustainability"
+      },
+      {
+        "id": "89",
+        "question": "The book \"An Essay on the Principle of Population\" was written by",
+        "options": [
+          "Darwin",
+          "Malthus",
+          "Spencer",
+          "Owens"
+        ],
+        "answer": "Malthus"
+      },
+      {
+        "id": "90",
+        "question": "Which of these is a positive check according to Malthus?",
+        "options": [
+          "late marriage",
+          "war",
+          "celibacy",
+          "moral restraint"
+        ],
+        "answer": "war"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 10",
+    "questions": [
+      {
+        "id": "91",
+        "question": "Hydrogen for nuclear fusion comes under the category of",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "stock resources"
+      },
+      {
+        "id": "92",
+        "question": "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
+        "options": [
+          "animal manure",
+          "mineral fertiliser",
+          "crops and their decomposition",
+          "human waste"
+        ],
+        "answer": "animal manure"
+      },
+      {
+        "id": "93",
+        "question": "\"the part of actual resources that can be developed profitably in the future\" is a definition of",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "reserve resources"
+      },
+      {
+        "id": "94",
+        "question": "Timber from forests that is being harvested can be categorised under",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "actual resources"
+      },
+      {
+        "id": "95",
+        "question": "Rain gardens are primarily meant to",
+        "options": [
+          "reduce water usage",
+          "increase recharge to groundwater",
+          "protect existing water sources",
+          "increase water flow to streams"
+        ],
+        "answer": "increase recharge to groundwater"
+      },
+      {
+        "id": "96",
+        "question": "Oil that has not been drilled can be categorised under",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "potential resources"
+      },
+      {
+        "id": "97",
+        "question": "Which of these is the largest source of nitrogen oxides in the atmosphere?",
+        "options": [
+          "electricity generation",
+          "mobile sources",
+          "industrial processes",
+          "waste disposal"
+        ],
+        "answer": "mobile sources"
+      },
+      {
+        "id": "98",
+        "question": "\"those resources that are currently being used after surveying, quantification and qualification\" is a definition of",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "actual resources"
+      },
+      {
+        "id": "99",
+        "question": "\"those resources that may be used in the future\" is a definition of",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "potential resources"
+      },
+      {
+        "id": "100",
+        "question": "Low concentration ores come in the category of",
+        "options": [
+          "potential resources",
+          "actual resources",
+          "reserve resources",
+          "stock resources"
+        ],
+        "answer": "stock resources"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 11",
+    "questions": [
+      {
+        "id": "101",
+        "question": "New Delhi can best be categorised as",
+        "options": [
+          "administrative town",
+          "industrial town",
+          "transport town",
+          "commercial town"
+        ],
+        "answer": "administrative town"
+      },
+      {
+        "id": "102",
+        "question": "Which of these is a factor governing barrier effect of roads?",
+        "options": [
+          "traffic intensity",
+          "speed of vehicles",
+          "driver sensitivity",
+          "all of these"
+        ],
+        "answer": "all of these"
+      },
+      {
+        "id": "103",
+        "question": "Which of these is a factor governing barrier effect of roads?",
+        "options": [
+          "presence and location of animal crossings",
+          "movement pattern of species",
+          "species specific preference of road use",
+          "all of these"
+        ],
+        "answer": "all of these"
+      },
+      {
+        "id": "104",
+        "question": "Varanasi can best be categorised as",
+        "options": [
+          "mining town",
+          "garrison town",
+          "educational town",
+          "religious town"
+        ],
+        "answer": "religious town"
+      },
+      {
+        "id": "105",
+        "question": "\"the ability to produce a good using fewer inputs than another producer\" is",
+        "options": [
+          "comparative advantage",
+          "absolute advantage",
+          "production advantage",
+          "resource advantage"
+        ],
+        "answer": "absolute advantage"
+      },
+      {
+        "id": "106",
+        "question": "\"the price of a good that prevails in the world market for that good\" is the definition of",
+        "options": [
+          "export price",
+          "import price",
+          "world price",
+          "domestic price"
+        ],
+        "answer": "world price"
+      },
+      {
+        "id": "107",
+        "question": "Visakhapatnam can best be categorised as",
+        "options": [
+          "administrative town",
+          "industrial town",
+          "transport town",
+          "commercial town"
+        ],
+        "answer": "transport town"
+      },
+      {
+        "id": "108",
+        "question": "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+        "options": [
+          "land bridges",
+          "canopy bridges",
+          "glider poles",
+          "all of these"
+        ],
+        "answer": "all of these"
+      },
+      {
+        "id": "109",
+        "question": "Bhilai can best be categorised as",
+        "options": [
+          "administrative town",
+          "industrial town",
+          "transport town",
+          "commercial town"
+        ],
+        "answer": "industrial town"
+      },
+      {
+        "id": "110",
+        "question": "\"the ability to produce a good at a lower opportunity cost than another producer\" is a definition of",
+        "options": [
+          "real advantage",
+          "monetary advantage",
+          "comparative advantage",
+          "opportunity advantage"
+        ],
+        "answer": "comparative advantage"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 12",
+    "questions": [
+      {
+        "id": "111",
+        "question": "The time of flight for LIDAR is 0.00001 sec. Find the distance of the object from the instrument.",
+        "options": [
+          "500 m",
+          "1000 m",
+          "1500 m",
+          "2000 m"
+        ],
+        "answer": "1500 m"
+      },
+      {
+        "id": "112",
+        "question": "Which of these uses imputed willingness to pay?",
+        "options": [
+          "market price method",
+          "replacement cost method",
+          "travel cost method",
+          "contingent valuation method"
+        ],
+        "answer": "travel cost method"
+      },
+      {
+        "id": "113",
+        "question": "\"The situation of people, infrastructure, housing, production capacities and other tangible human assets located in hazard-prone areas.\" is a definition for",
+        "options": [
+          "hazard",
+          "exposure",
+          "vulnerability",
+          "disaster"
+        ],
+        "answer": "exposure"
+      },
+      {
+        "id": "114",
+        "question": "\"A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation.\" is a definition for",
+        "options": [
+          "hazard",
+          "exposure",
+          "vulnerability",
+          "disaster"
+        ],
+        "answer": "hazard"
+      },
+      {
+        "id": "115",
+        "question": "\"A serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts.\" is a definition for",
+        "options": [
+          "hazard",
+          "exposure",
+          "vulnerability",
+          "disaster"
+        ],
+        "answer": "disaster"
+      },
+      {
+        "id": "116",
+        "question": "\"The combination of all the strengths, attributes and resources available within an organisation, community or society to manage and reduce disaster risks and strengthen resilience.\" is a definition for",
+        "options": [
+          "contingency",
+          "disaster management",
+          "vulnerability",
+          "capacity"
+        ],
+        "answer": "capacity"
+      },
+      {
+        "id": "117",
+        "question": "Bathymetric LIDAR uses",
+        "options": [
+          "far infrared light",
+          "near infrared light",
+          "orange light",
+          "green light"
+        ],
+        "answer": "green light"
+      },
+      {
+        "id": "118",
+        "question": "IMU stands for",
+        "options": [
+          "Imperial metering unit",
+          "Inertial metering unit",
+          "Imperial measurement unit",
+          "Inertial measurement unit"
+        ],
+        "answer": "Inertial measurement unit"
+      },
+      {
+        "id": "119",
+        "question": "Which of these is not a consumptive value?",
+        "options": [
+          "timber",
+          "firewood",
+          "non-timber forest products",
+          "education"
+        ],
+        "answer": "education"
+      },
+      {
+        "id": "120",
+        "question": "The frequency of flyovers is an indicator of",
+        "options": [
+          "spatial resolution",
+          "temporal resolution",
+          "spectral resolution",
+          "radiometric resolution"
+        ],
+        "answer": "temporal resolution"
       }
     ]
   }

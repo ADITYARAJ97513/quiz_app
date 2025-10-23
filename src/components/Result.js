@@ -7,7 +7,6 @@ const Result = () => {
         quizs,
         marks,
         startOver,
-        showSubjectSelect,
         setShowSubjectSelect,
         setShowResult,
         setShowStart,
@@ -18,7 +17,6 @@ const Result = () => {
         selectSection,
         setSelectedAnswer,
         setCorrectAnswer,
-        setSelectedSubject,
         selectSubject
     } = useContext(DataContext);
 
@@ -29,10 +27,14 @@ const Result = () => {
         setQuestionIndex(0);
         setSelectedAnswer('');
         setCorrectAnswer('');
-        
-        // Use the same pattern as Start component
-        selectSubject(null);
         selectSection('');
+        selectSubject(null);
+        
+        // Change view states
+        setShowResult(false);
+        setShowQuiz(false);
+        setShowStart(true);
+        setShowSubjectSelect(true);
     };
     
     return (

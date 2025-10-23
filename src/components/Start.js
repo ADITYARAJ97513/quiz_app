@@ -1,9 +1,9 @@
 ﻿import React, { useContext } from 'react';
 import DataContext from '../context/dataContext';
-import Donate from './Donate';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa'; // <-- 1. ADDED IMPORT
 
 const Start = () => {
-  const { 
+  const {
     startQuiz, showStart, allSections, selectSection, selectedSection,
     showSubjectSelect, selectSubject, selectedSubject, loading
   } = useContext(DataContext);
@@ -26,7 +26,26 @@ const Start = () => {
                     Conservation Geography
                   </button>
                 </div>
-                <Donate />
+                
+                
+                <div className="d-flex justify-content-center align-items-center gap-4 mt-4">
+                  <a
+                    href="https://www.instagram.com/adityaraj97512/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white fs-2" 
+                  >
+                    <FaInstagram />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/adityarajbitmesra/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white fs-2" 
+                  >
+                    <FaLinkedin />
+                  </a>
+                </div>
               </div>
             ) : (
               <div>
@@ -64,7 +83,24 @@ const Start = () => {
                     Back to Subject Selection
                   </button>
                 </div>
-                <Donate />
+                <div className="d-flex justify-content-center align-items-center gap-4 mt-4">
+                  <a
+                    href="https://www.instagram.com/adityaraj97512/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white fs-2" 
+                  >
+                    <FaInstagram />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/adityarajbitmesra/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white fs-2" 
+                  >
+                    <FaLinkedin />
+                  </a>
+                </div>
               </div>
             )}
           </div>
