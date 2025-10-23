@@ -1,42 +1,232 @@
 [
-    {
-        "section": "Week 1",
-        "questions": [
-            {
-                "id": "01",
-                "question": "What is the primary focus of Conservation Geography?",
-                "options": ["Urban planning", "Spatial patterns of conservation", "Economic development", "Population growth"],
-                "answer": "Spatial patterns of conservation"
-            },
-            {
-                "id": "02",
-                "question": "Which of the following is a key concept in biogeography?",
-                "options": ["Market economics", "Species distribution", "Fiscal policy", "Industrial development"],
-                "answer": "Species distribution"
-            },
-            {
-                "id": "03",
-                "question": "What is a biodiversity hotspot?",
-                "options": ["A tourist destination", "An area with high species richness and habitat loss", "A thermal spring", "An economic zone"],
-                "answer": "An area with high species richness and habitat loss"
-            }
-        ]
-    },
-    {
-        "section": "Week 2",
-        "questions": [
-            {
-                "id": "04",
-                "question": "Which tool is commonly used in Conservation Geography for spatial analysis?",
-                "options": ["GIS (Geographic Information System)", "Calculator", "Spreadsheet", "Social media"],
-                "answer": "GIS (Geographic Information System)"
-            },
-            {
-                "id": "05",
-                "question": "What is habitat fragmentation?",
-                "options": ["Building new habitats", "Division of large habitats into smaller patches", "Animal migration", "Forest growth"],
-                "answer": "Division of large habitats into smaller patches"
-            }
-        ]
-    }
+  {
+    "section": "Conservation Geography: Assignment 1",
+    "questions": [
+      {
+        "id": "01",
+        "question": "\"Science of relationships between organisms and their environments\" is the definition of:",
+        "options": [
+          "conservation",
+          "preservation",
+          "environmentalism",
+          "ecology"
+        ],
+        "answer": "ecology"
+      },
+      {
+        "id": "02",
+        "question": "The Trinity explosion of 1945 is taken as the beginning of the",
+        "options": [
+          "Holocene",
+          "Cenocene",
+          "Anthropocene",
+          "Eocene"
+        ],
+        "answer": "Anthropocene"
+      },
+      {
+        "id": "03",
+        "question": "Sustainable harvest of resources falls under the category of:",
+        "options": [
+          "conservation",
+          "preservation",
+          "environmentalism",
+          "none of the above"
+        ],
+        "answer": "conservation"
+      },
+      {
+        "id": "04",
+        "question": "The quantum of human impacts can be written as",
+        "options": [
+          "I = P + A + T",
+          "I = P X A + T",
+          "I = P X A X T",
+          "I = P + A X T"
+        ],
+        "answer": "I = P X A X T"
+      },
+      {
+        "id": "05",
+        "question": "The discipline of Demography is most closely related to:",
+        "options": [
+          "Phytogeography",
+          "Zoogeography",
+          "Population Geography",
+          "Economic Geography"
+        ],
+        "answer": "Population Geography"
+      },
+      {
+        "id": "06",
+        "question": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor\" .This is the statement for",
+        "options": [
+          "Liebig's law of the minimum",
+          "Liebig's law of the maximum",
+          "Shelford's law of tolerance",
+          "Shelford's law of intolerance"
+        ],
+        "answer": "Liebig's law of the minimum"
+      },
+      {
+        "id": "07",
+        "question": "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
+        "options": [
+          "Liebig's law of the minimum",
+          "Liebig's law of the maximum",
+          "Shelford's law of tolerance",
+          "Shelford's law of intolerance"
+        ],
+        "answer": "Shelford's law of tolerance"
+      },
+      {
+        "id": "08",
+        "question": "The regional approach to Geography was developed by:",
+        "options": [
+          "Alexander von Humboldt",
+          "Karl Ritter",
+          "Rene Descartes",
+          "Eratosthenes"
+        ],
+        "answer": "Karl Ritter"
+      },
+      {
+        "id": "09",
+        "question": "Good climate is a",
+        "options": [
+          "chemical factor",
+          "demographic factor",
+          "push factor",
+          "pull factor"
+        ],
+        "answer": "pull factor"
+      },
+      {
+        "id": "10",
+        "question": "Scarcity of food is a",
+        "options": [
+          "chemical factor",
+          "demographic factor",
+          "push factor",
+          "pull factor"
+        ],
+        "answer": "push factor"
+      }
+    ]
+  },
+  {
+    "section": "Conservation Geography: Assignment 2",
+    "questions": [
+      {
+        "id": "11",
+        "question": "In an undisturbed sedimentary strata, bottom layers are older than layers above them. This is known as",
+        "options": [
+          "Principle of superposition",
+          "Principle of original horizontality",
+          "Principle of lateral continuity",
+          "Principle of inclusions"
+        ],
+        "answer": "Principle of superposition"
+      },
+      {
+        "id": "12",
+        "question": "Mount Vesuvius is an example of",
+        "options": [
+          "Shield volcano",
+          "Composite volcano",
+          "Caldera",
+          "Flood basalt province"
+        ],
+        "answer": "Composite volcano"
+      },
+      {
+        "id": "13",
+        "question": "Krakatoa eruption resulted in the formation of",
+        "options": [
+          "Shield volcano",
+          "Stratovolcano",
+          "Caldera",
+          "Flood basalt province"
+        ],
+        "answer": "Caldera"
+      },
+      {
+        "id": "14",
+        "question": "Which of these is not a method of absolute dating?",
+        "options": [
+          "radioisotope dating",
+          "thermoluminescence dating",
+          "Inclusion study",
+          "fission track dating"
+        ],
+        "answer": "Inclusion study"
+      },
+      {
+        "id": "15",
+        "question": "Which of these is true about S waves?",
+        "options": [
+          "They are longitudinal in nature",
+          "They are transverse in nature",
+          "They cannot move through solids, liquids and gases",
+          "They are the first to reach the surface of the Earth"
+        ],
+        "answer": "They are transverse in nature"
+      },
+      {
+        "id": "16",
+        "question": "Hawaiian volcanoes are an example of",
+        "options": [
+          "Shield volcano",
+          "Stratovolcano",
+          "Caldera",
+          "Flood basalt province"
+        ],
+        "answer": "Shield volcano"
+      },
+      {
+        "id": "17",
+        "question": "Within a depositional basin, strata are laterally continuous in all directions till the edge of the basin. This is known as",
+        "options": [
+          "Principle of superposition",
+          "Principle of original horizontality",
+          "Principle of lateral continuity",
+          "Principle of inclusions"
+        ],
+        "answer": "Principle of lateral continuity"
+      },
+      {
+        "id": "18",
+        "question": "Which of these is a gas giant?",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Mars",
+          "Saturn"
+        ],
+        "answer": "Saturn"
+      },
+      {
+        "id": "19",
+        "question": "Assemblage of fossils are unique to the time that they lived in, and so can be used to age rocks across a wide geographic distribution. This is known as",
+        "options": [
+          "Principle of fossil succession",
+          "Principle of original horizontality",
+          "Principle of superposition",
+          "Principle of cross-cutting relationships"
+        ],
+        "answer": "Principle of fossil succession"
+      },
+      {
+        "id": "20",
+        "question": "Which of these is an example of direct source of information about the Earth?",
+        "options": [
+          "earthquake",
+          "volcanic eruption",
+          "magnetic survey",
+          "gravity anomaly"
+        ],
+        "answer": "volcanic eruption"
+      }
+    ]
+  }
 ]

@@ -115,7 +115,9 @@ export const DataProvider = ({ children }) => {
       startQuiz, showStart, showQuiz, question, quizs, checkAnswer,
       correctAnswer, selectedAnswer, questionIndex, nextQuestion,
       showTheResult, showResult, marks, startOver,
-      selectedSubject, selectSubject, showSubjectSelect, setShowSubjectSelect
+      selectedSubject, selectSubject, showSubjectSelect, setShowSubjectSelect,
+      setQuizs, setMarks, setQuestionIndex, setSelectedAnswer, setCorrectAnswer,
+      setShowResult, setShowStart, setShowQuiz
     }}>
       {children}
     </DataContext.Provider>
