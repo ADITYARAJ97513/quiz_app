@@ -648,11 +648,11 @@
         "question": "Which of these is the correct sequence of seasons in India?",
         "options": [
           "Hot weather season -> Retreating monsoon season -> South-West monsoon season -> Cold weather season",
-          "Hot weather season -> Retreating monsoon season -> South-West monsoon season -> Cold weather season",
+          "Hot weather season -> South-West monsoon season -> Retreating monsoon season -> Cold weather season",
           "Hot weather season -> Cold weather season -> South-West monsoon season -> Retreating monsoon season",
           "Hot weather season -> South-West monsoon season -> Cold weather season -> Retreating monsoon season"
         ],
-        "answer": "Hot weather season -> South-West monsoon season -> Cold weather season -> Retreating monsoon season"
+        "answer": "Hot weather season -> South-West monsoon season -> Retreating monsoon season -> Cold weather season"
       },
       {
         "id": "58",
