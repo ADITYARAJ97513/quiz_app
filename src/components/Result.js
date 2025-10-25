@@ -17,7 +17,9 @@ const Result = () => {
         selectSection,
         setSelectedAnswer,
         setCorrectAnswer,
-        selectSubject
+        selectSubject,
+        selectedSection,
+        allSections
     } = useContext(DataContext);
 
     const backToSubjectSelection = () => {
@@ -36,6 +38,36 @@ const Result = () => {
         setShowStart(true);
         setShowSubjectSelect(true);
     };
+
+    const goToNextWeek = () => {
+        // Find current section index
+        const regularSections = allSections.map(sec => sec.section);
+        const currentIndex = regularSections.indexOf(selectedSection);
+        
+        // Reset quiz states
+        setQuizs([]);
+        setMarks(0);
+        setQuestionIndex(0);
+        setSelectedAnswer('');
+        setCorrectAnswer('');
+
+        if (currentIndex === -1) {
+            selectSection(regularSections[0]); 
+        } 
+        else if (currentIndex === regularSections.length - 1) {
+            selectSection(regularSections[0]);
+        }
+        else {
+            selectSection(regularSections[currentIndex + 1]);
+        }
+        setShowResult(false);
+        setShowQuiz(false);
+        setShowStart(true);
+        setShowSubjectSelect(false);
+    };
+    const isRegularWeek = selectedSection && 
+        selectedSection !== 'Random 20 Questions' && 
+        selectedSection !== 'All 120 Questions (Jumbled)';
     
     return (
         <section className="bg-dark text-white" style={{ display: `${showResult ? 'block' : 'none'}` }}>
@@ -48,6 +80,11 @@ const Result = () => {
 
                             <div className='d-grid gap-3 col-lg-8 mx-auto'>
                                 <button onClick={startOver} className='btn py-2 px-4 btn-light fw-bold'>Start Over</button>
+                                {isRegularWeek && (
+                                    <button className='btn btn-success' onClick={goToNextWeek}>
+                                        Next Week's Quiz
+                                    </button>
+                                )}
                                 <button className='btn btn-outline-light' onClick={backToSubjectSelection}>
                                     Back to Subject Selection
                                 </button>
