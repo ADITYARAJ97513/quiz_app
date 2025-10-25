@@ -2,8 +2,19 @@ import React, { useContext } from 'react';
 import DataContext from '../context/dataContext';
 
 const Quiz = () => {
-    const { showQuiz, question, quizs, checkAnswer, correctAnswer,
-            selectedAnswer,questionIndex, nextQuestion, showTheResult }  = useContext(DataContext);
+    const { 
+        showQuiz, 
+        question, 
+        quizs, 
+        checkAnswer, 
+        correctAnswer,
+        selectedAnswer,
+        questionIndex, 
+        nextQuestion, 
+        showTheResult,
+        selectedSection,
+        selectedSubject
+    } = useContext(DataContext);
 
     if (!showQuiz || !question || !quizs.length) {
         return null;
@@ -14,6 +25,11 @@ const Quiz = () => {
             <div className="container">
                 <div className="row vh-100 align-items-center justify-content-center">
                     <div className="col-lg-8">
+                        <h2 className="text-center mb-4">
+                            {selectedSection === 'Random 20 Questions' ? 'Random Quiz' :
+                             selectedSection === 'All 120 Questions (Jumbled)' ? 'Complete Quiz' :
+                             `${selectedSection}`}
+                        </h2>
                         <div className="card p-4" style={{ background: '#3d3d3d', borderColor: '#646464' }}>
                             <div className="d-flex justify-content-between gap-md-3">
                                 <h5 className='mb-2 fs-normal lh-base'>{question?.question}</h5>

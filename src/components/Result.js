@@ -19,7 +19,8 @@ const Result = () => {
         setCorrectAnswer,
         selectSubject,
         selectedSection,
-        allSections
+        allSections,
+        startQuiz
     } = useContext(DataContext);
 
     const backToSubjectSelection = () => {
@@ -51,18 +52,21 @@ const Result = () => {
         setSelectedAnswer('');
         setCorrectAnswer('');
 
-        if (currentIndex === -1) {
-            selectSection(regularSections[0]); 
-        } 
-        else if (currentIndex === regularSections.length - 1) {
-            selectSection(regularSections[0]);
+        // Determine next section
+        let nextSection;
+        if (currentIndex === -1 || currentIndex === regularSections.length - 1) {
+            nextSection = regularSections[0];
+        } else {
+            nextSection = regularSections[currentIndex + 1];
         }
-        else {
-            selectSection(regularSections[currentIndex + 1]);
-        }
+
+        // Set the section and prepare quiz
+        selectSection(nextSection);
+
+        // Reset view states and start quiz directly
         setShowResult(false);
-        setShowQuiz(false);
-        setShowStart(true);
+        setShowQuiz(true);
+        setShowStart(false);
         setShowSubjectSelect(false);
     };
     const isRegularWeek = selectedSection && 
