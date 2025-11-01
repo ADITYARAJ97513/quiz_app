@@ -23,7 +23,11 @@ export const DataProvider = ({ children }) => {
       setShowSubjectSelect(true);
     } else {
       setLoading(true);
-      const filename = selectedSubject === 'Economics' ? 'quiz.json' : 'conservation-geography.json';
+      // Map subject names to their corresponding public JSON files
+      let filename = 'quiz.json';
+      if (selectedSubject === 'Economics') filename = 'quiz.json';
+      else if (selectedSubject === 'Geography') filename = 'conservation-geography.json';
+      else if (selectedSubject === 'Psychology') filename = 'physcology.json';
       fetch(filename)
         .then(res => {
           if (!res.ok) {
